@@ -1,0 +1,13 @@
+{
+	"name": "Centilium Bot",
+	"version": "1.0.0",
+	"description": "",
+	"scripts": {
+		"text": "echo \"error: no text specified\ exit "
+	},
+	"author": "Nigary",
+	"license": "ISC",
+	"dependencies": {
+		"discord.js": "^11.2.1"
+	}
+}
