@@ -1,12 +1,10 @@
 {
-	"name": "Centilium Bot",
-	"version": "1.0.0",
-	"description": "",
-		"text": "echo \"error: no text specified\&& exit "
-	},
-	"author": "Nigary",
-	"license": "ISC",
-	"dependencies": {
-		"discord.js": "^11.2.1"
-	}
-}
+  "name": "Centilium Bot",
+  "version": "0.0.1",
+  "description": "A bot for Discord",
+  "readme": "README.md",
+  "author": "Nigary",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/centilium"
+  }
