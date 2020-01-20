@@ -29,6 +29,11 @@ try {
 bot.on('message' , message => {
 if(message.content === prefix + "help"){
     message.delete();
-    message.channel.send("Je suis " + bot.user.username + ", Votre nouveau bot Discord que vous pouvez modifier avec tout type de logiciel textuel !")
-}})
+    message.channel.send("Je suis " + bot.user.username + ", Votre nouveau bot Discord que vous pouvez modifier avec tout type de logiciel textuel ! Voici la commande pour ajouté le bot sur vos serveur `!bot`")
+}
+if(message.content === prefix + "bot"){
+  message.delete();
+  message.channel.send("https://discordapp.com/oauth2/authorize?client_id=" + bot.user.id + "&scope=bot&permissions=2146958847")
+})
+
 bot.login(tokenfile.token);
