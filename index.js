@@ -1,5 +1,6 @@
 const tokenfile = require("./token.json");
 const Discord = require("discord.js");
+const bot = new Discord.Client({disableEveryone: true});
 const prefix = "!",
 
 bot.on('ready', function() {
