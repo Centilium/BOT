@@ -35,6 +35,6 @@ if(message.content === prefix + "help"){
 if(message.content === prefix + "bot"){
   message.delete();
   message.channel.send("https://discordapp.com/oauth2/authorize?client_id=" + bot.user.id + "&scope=bot&permissions=2146958847")
-})
+}})
 
 bot.login(tokenfile.token);
