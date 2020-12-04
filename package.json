@@ -1,0 +1,11 @@
+
+{
+  "name": "exemple",
+  "version": "1.0.0",
+  "description": "Bot Exemple",
+  "main": "index.js",
+  "author": "Nigary",
+  "dependencies": {
+    "discord.js": "^11.5.0"
+  }
+}
